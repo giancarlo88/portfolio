@@ -1,0 +1,54 @@
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #D1D5FF
+}
+
+.card3 {
+  padding: 0em;
+  border: solid;
+  border-width: .05em;
+  border-color: #A7AACC;
+ width: 25%
+  ;
+}
+
+#cards {
+  text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
+}
+
+.card2 {
+  padding: 1em;
+  border-width: .05em;
+  border-color: #A7AACC
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+}
+
+.card1 {
+  transition: all .2s linear;
+  text-decoration: none
+}
+
+.card1:hover,
+.card1:focus {
+  transform: scale(1.05, 1.05);
+}
+
+
+  
+}
+
+}
+.toplink {
+  transition: all .2s linear;
+}
+.toplink:hover,
+.toplink:focus {
+  transform: scale(1.05, 1.05);
+}
+a:hover {
+  text-decoration: none;
+}
