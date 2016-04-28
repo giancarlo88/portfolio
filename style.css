@@ -3,6 +3,10 @@ body {
   background-color: #D1D5FF
 }
 
+
+
+}
+
 .card3 {
   padding: 0em;
   border: solid;
@@ -19,7 +23,7 @@ body {
 .card2 {
   padding: 1em;
   border-width: .05em;
-  border-color: #A7AACC
+  border-color: #A7AACC;
 }
 
 .centered {
@@ -27,18 +31,55 @@ body {
   align-items: center;
 }
 
-.card1 {
+.card-title, .card-text {
+       background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.grow :hover {
+    color: cornflowerblue;
+}
+
+.card-img {
+    height:200px;
+    width:350px;
+}
+
+
+}
+.grow {
   transition: all .2s linear;
-  text-decoration: none
+  text-decoration: none;
+    
 }
 
-.card1:hover,
-.card1:focus {
+.grow:hover,
+.grow:focus {
   transform: scale(1.05, 1.05);
+    transition: all .2s linear;
 }
 
+#emph {
+    color: firebrick;
+}
+#emph2 {
+    color: darkgreen;
+} 
 
-  
+#emph3 {
+   color: mediumblue
+}
+
+#emph4 {
+   color: orangered;
+}
+
+#emph5 {
+    color: saddlebrown;
+}
+
+#emph6 {
+    color: purple;
 }
 
 }
@@ -51,4 +92,14 @@ body {
 }
 a:hover {
   text-decoration: none;
+}
+
+#pic {
+    height: auto;
+    right: 25%;
+    top: 100%;
+}
+
+.hidn {
+    display: none;
 }
