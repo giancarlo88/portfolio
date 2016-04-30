@@ -1,77 +1,57 @@
+a:hover {
+    text-decoration: none;
+}
+
 body {
-  font-family: 'Cabin', sans-serif;
-  background-color: #D1D5FF
-}
-
-
-
-}
-
-.card3 {
-  padding: 0em;
-  border: solid;
-  border-width: .05em;
-  border-color: #A7AACC;
- width: 25%
-  ;
-}
-
-#cards {
-  text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
-}
-
-.card2 {
-  padding: 1em;
-  border-width: .05em;
-  border-color: #A7AACC;
-}
-
-.centered {
-  display: flex;
-  align-items: center;
-}
-
-.card-title, .card-text {
-       background: rgba(0, 0, 0, 0.4);
-    padding: 10px;
-}
-
-.grow :hover {
-    color: cornflowerblue;
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(to bottom, rgba(212, 228, 239, 1) 0%, rgba(134, 174, 204, 1) 100%);
+    ;
 }
 
 .card-img {
-    height:200px;
-    width:350px;
+    width: 100%;
+    height: auto
 }
 
-
-}
-.grow {
-  transition: all .2s linear;
-  text-decoration: none;
-    
+.card {
+    border-width: 0px;
 }
 
-.grow:hover,
-.grow:focus {
-  transform: scale(1.05, 1.05);
-    transition: all .2s linear;
+#cards {
+    text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
+    border-width: 0px;
+}
+
+.card2 {
+    padding: 1em;
+    text-align: center;
+}
+
+.card-title,
+.card-text {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
 }
 
 #emph {
     color: firebrick;
 }
+
 #emph2 {
     color: darkgreen;
-} 
+}
 
 #emph3 {
-   color: mediumblue
+    color: mediumblue
 }
 
 #emph4 {
-   color: orangered;
+    color: orangered;
 }
 
 #emph5 {
@@ -82,16 +62,23 @@ body {
     color: purple;
 }
 
+.grow:hover {
+    color: cornflowerblue;
 }
-.toplink {
-  transition: all .2s linear;
+
+.grow {
+    transition: all .2s linear;
+    text-decoration: none;
 }
-.toplink:hover,
-.toplink:focus {
-  transform: scale(1.05, 1.05);
+
+.grow:hover,
+.grow:focus {
+    transform: scale(1.05, 1.05);
+    transition: all .2s linear;
 }
-a:hover {
-  text-decoration: none;
+
+.hidn {
+    display: none;
 }
 
 #pic {
@@ -100,6 +87,16 @@ a:hover {
     top: 100%;
 }
 
-.hidn {
-    display: none;
+.textcentered {
+    text-align: center;
+}
+
+
+}
+.toplink {
+    transition: all .2s linear;
+}
+.toplink:hover,
+.toplink:focus {
+    transform: scale(1.05, 1.05);
 }

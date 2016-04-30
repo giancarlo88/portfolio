@@ -1,7 +1,5 @@
- $(document).ready(function() {
-   $(".card").hover(function() {
+$(".grow").hover(function () {
     $(this).filter(':not(:animated)').removeClass("card-inverse");     
-   }, function() {
+}, function () {
      $(this).addClass("card-inverse");
-   });
 });
