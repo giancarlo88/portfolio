@@ -1,17 +1,47 @@
+
+
 body {
     font-family: 'Cabin', sans-serif;
-    background: #DDE5E5;
+    background-color: #E6E9EC;
     transition: all .2s ease;
+}
+
+.btn {
+    border-radius: 100px;
+}
+
+.btn:hover {
+    color: grey;
+    transition: all .2s ease;
+}
+
+.btn-1 {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+.btn-2 {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.btn-3 {
+    color: #D0D3D6;
+    background-color:#00A0DC;
 }
 
 .card-img {
     width: 100%;
-    height: auto;
+    height: 200px;
     -webkit-filter: blur(2px);
-        filter:blur(2px)
+    -moz-filter:blur(2px);
+    -ms-filter:blur(2px);
+    -o-filter:blur(2px);
+    filter:blur(2px)
 }
 
 .card {
+    margin: .5em;
     border-width: 0px;
 }
 
@@ -22,7 +52,6 @@ body {
 
 .card2 {
     padding: 1em;
-    text-align: center;
 }
 
 .card-title,
@@ -35,6 +64,10 @@ body {
 .centered {
     display: flex;
     align-items: center;
+}
+
+#email {
+    background-color: orange;
 }
 
 #emph {
@@ -61,6 +94,14 @@ body {
     color: purple;
 }
 
+#emph7 {
+    color: forestgreen;
+}
+
+#emph8 {
+    color: midnightblue;
+}
+
 .grow {
     transition: all .2s ease;
 }
@@ -72,7 +113,10 @@ body {
 
 .grow:hover .card-img{
     -webkit-filter: none;
-        filter:none;
+    -moz-filter:none;
+    -ms-filter:none;
+    -o-filter:none;
+    filter:none;
     transition: all .2s ease;
 }
 
@@ -86,15 +130,26 @@ h1 {
     display: none;
 }
 
+#container {
+height: inherit;
+display: flex;
+flex-direction: column;
+align-content: middle;
+    margin: 1em 1em 1em 0;
+}
+
 #pic {
-    height: auto;
-    right: 25%;
-    top: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #signaturepic {
     width: 50%;
     height:auto;
+}
+
+#sm {
+    padding: 2em 0 2em 0;
 }
 
 .title {
