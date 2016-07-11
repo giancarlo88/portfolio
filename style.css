@@ -1,4 +1,7 @@
 
+.links {
+    padding-top: 5em;
+}
 
 body {
     font-family: 'Cabin', sans-serif;
@@ -45,7 +48,7 @@ body {
     border-width: 0px;
 }
 
-#cards {
+.cards {
     text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
     border-width: 0px;
 }
@@ -66,39 +69,39 @@ body {
     align-items: center;
 }
 
-#email {
+.email {
     background-color: orange;
 }
 
-#emph {
+.emph {
     color: firebrick;
 }
 
-#emph2 {
+.emph2 {
     color: darkgreen;
 }
 
-#emph3 {
+.emph3 {
     color: mediumblue
 }
 
-#emph4 {
+.emph4 {
     color: orangered;
 }
 
-#emph5 {
+.emph5 {
     color: saddlebrown;
 }
 
-#emph6 {
+.emph6 {
     color: purple;
 }
 
-#emph7 {
+.emph7 {
     color: forestgreen;
 }
 
-#emph8 {
+.emph8 {
     color: midnightblue;
 }
 
@@ -130,25 +133,25 @@ h1 {
     display: none;
 }
 
-#container {
+.pic-container {
 height: inherit;
 display: flex;
 flex-direction: column;
 align-content: middle;
-    margin: 1em 1em 1em 0;
+margin: 1em;
 }
 
-#pic {
+.pic {
     width: 100%;
     overflow: hidden;
 }
 
-#signaturepic {
+.signaturepic {
     width: 50%;
     height:auto;
 }
 
-#sm {
+.sm {
     padding: 2em 0 2em 0;
 }
 
