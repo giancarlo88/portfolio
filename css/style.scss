@@ -1,0 +1,243 @@
+	
+.links {
+    padding-top: 5em;
+}
+
+.about {
+    background-color: #FFF;
+    padding: 1em;
+    
+    @media screen and (min-width: 500px){   
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #E6E9EC;
+    transition: all .2s ease;
+}
+
+.btn {
+    border-radius: 100px;
+}
+
+.btn:hover {
+    color: grey;
+    transition: all .2s ease;
+}
+
+.btn-1 {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+.btn-2 {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.btn-3 {
+    color: #D0D3D6;
+    background-color:#00A0DC;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    -webkit-filter: blur(2px);
+    -moz-filter:blur(2px);
+    -ms-filter:blur(2px);
+    -o-filter:blur(2px);
+    filter:blur(2px)
+}
+
+.card {
+    margin: .5em;
+    border-width: 0px;
+}
+
+.cards {
+    text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
+    border-width: 0px;
+    width: 100%;
+}
+
+.card2 {
+    padding: 1em;
+}
+
+.card-title,
+.card-text {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+
+.centered {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    background-color: orange;
+}
+
+
+@function random-color(){
+    @return "rgb(#{random(255), random(255), random(255)})"
+}
+
+$description-colors: ();
+    
+
+@for $i from 1 through 8{
+    $description-colors: append($description-colors, random-color());
+}
+
+
+@for $i from 1 through length($description-colors){
+    .emph#{$i}{
+        color: unquote(nth($description-colors, $i));
+    }
+}
+
+
+
+//.emph {
+//    color: firebrick;
+//}
+//
+//.emph2 {
+//    color: darkgreen;
+//}
+//
+//.emph3 {
+//    color: mediumblue
+//}
+//
+//.emph4 {
+//    color: orangered;
+//}
+//
+//.emph5 {
+//    color: saddlebrown;
+//}
+//
+//.emph6 {
+//    color: purple;
+//}
+//
+//.emph7 {
+//    color: forestgreen;
+//}
+//
+//.emph8 {
+//    color: midnightblue;
+//}
+
+.grow {
+    transition: all .2s ease;
+}
+
+.grow:hover,
+.grow:focus {
+    transform: scale(1.05, 1.05);
+}
+
+.grow:hover .card-img{
+    -webkit-filter: none;
+    -moz-filter:none;
+    -ms-filter:none;
+    -o-filter:none;
+    filter:none;
+    transition: all .2s ease;
+}
+
+h1 {
+    font-size: 400%
+}
+
+
+
+.hidn {
+    display: none;
+}
+
+.pic-container {
+height: inherit;
+display: flex;
+flex-direction: column;
+align-content: middle;
+margin: 1em;
+}
+
+.pic {
+    width: 100%;
+    overflow: hidden;
+}
+
+.signaturepic {
+    width: 50%;
+    height:auto;
+}
+
+.sm {
+    padding: 2em 0 2em 0;
+}
+
+.title {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    text-align: center;   
+    vertical-align: middle;
+    display: table;
+        
+}
+
+.title-text{
+    margin: 0 auto;
+    max-width: 600px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.toplink {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.toplink:hover{
+    color: #000;
+    text-decoration: none
+}
+
+.toplink:before 
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.toplink:hover:before{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+html, body{
+    height: 100%
+}
