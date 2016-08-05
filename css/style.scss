@@ -1,4 +1,10 @@
 	
+$textColor: #222222;
+$backgroundColor: #E6E9EC;
+$darkColor: #4b4e6d;
+$accentColor: #84dcc6;
+$shadeColor: #95a3b3;
+
 .links {
     padding-top: 5em;
 }
@@ -6,7 +12,6 @@
 .about {
     background-color: #FFF;
     padding: 1em;
-    
     @media screen and (min-width: 500px){   
         display: flex;
         align-items: center;
@@ -15,9 +20,14 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     font-family: 'Cabin', sans-serif;
     background-color: #E6E9EC;
     transition: all .2s ease;
+    color: $textColor;
 }
 
 .btn {
@@ -86,21 +96,12 @@ body {
 }
 
 
-@function random-color(){
-    @return "rgb(#{random(255), random(255), random(255)})"
-}
+$description-colors:(#442220, #E34C26, #C2AF18, #3b5998, #cf5c36, #306B7B, #c69, #6f5499, #0769AD, #339933, #4F5B93, #71b48d, #0e402d, #31263e);
 
-$description-colors: ();
-    
-
-@for $i from 1 through 8{
-    $description-colors: append($description-colors, random-color());
-}
-
-
+//Add the description colors from the list to the ".emph" classes.
 @for $i from 1 through length($description-colors){
     .emph#{$i}{
-        color: unquote(nth($description-colors, $i));
+        color: unquote(nth($description-colors, $i)); 
     }
 }
 
@@ -157,7 +158,7 @@ $description-colors: ();
 }
 
 h1 {
-    font-size: 400%
+    font-size: 5em;
 }
 
 
@@ -189,21 +190,13 @@ margin: 1em;
 }
 
 .title {
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-    text-align: center;   
-    vertical-align: middle;
-    display: table;
-        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.title-text{
-    margin: 0 auto;
-    max-width: 600px;
-    vertical-align: middle;
-    display: table-cell;
-}
 
 .toplink {
   position: relative;
@@ -236,8 +229,4 @@ margin: 1em;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-}
-
-html, body{
-    height: 100%
 }

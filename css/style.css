@@ -1,48 +1,53 @@
-/* line 2, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 8, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .links {
   padding-top: 5em; }
 
-/* line 6, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 12, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .about {
   background-color: #FFF;
   padding: 1em; }
   @media screen and (min-width: 500px) {
-    /* line 6, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+    /* line 12, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
     .about {
       display: flex;
       align-items: center; } }
 
-/* line 17, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 22, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   font-family: 'Cabin', sans-serif;
   background-color: #E6E9EC;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  color: #222222; }
 
-/* line 23, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 33, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .btn {
   border-radius: 100px; }
 
-/* line 27, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 37, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .btn:hover {
   color: grey;
   transition: all 0.2s ease; }
 
-/* line 32, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 42, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .btn-1 {
   background-color: darkcyan;
   color: aliceblue; }
 
-/* line 37, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 47, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .btn-2 {
   background-color: #f5f5f5;
   color: #333; }
 
-/* line 42, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 52, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .btn-3 {
   color: #D0D3D6;
   background-color: #00A0DC; }
 
-/* line 47, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 57, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .card-img {
   width: 100%;
   height: 200px;
@@ -52,78 +57,102 @@ body {
   -o-filter: blur(2px);
   filter: blur(2px); }
 
-/* line 57, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 67, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .card {
   margin: .5em;
   border-width: 0px; }
 
-/* line 62, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 72, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .cards {
   text-shadow: 2px 2px 1px rgba(49, 51, 53, 0.6);
   border-width: 0px;
   width: 100%; }
 
-/* line 68, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 78, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .card2 {
   padding: 1em; }
 
-/* line 73, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 83, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .card-title,
 .card-text {
   background: rgba(0, 0, 0, 0.4);
   padding: 10px; }
 
-/* line 79, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 89, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .centered {
   display: flex;
   align-items: center; }
 
-/* line 84, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 94, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .email {
   background-color: orange; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph1 {
-  color: rgb(149, 253, 84); }
+  color: #442220; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph2 {
-  color: rgb(248, 140, 9); }
+  color: #E34C26; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph3 {
-  color: rgb(16, 217, 60); }
+  color: #C2AF18; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph4 {
-  color: rgb(226, 58, 167); }
+  color: #3b5998; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph5 {
-  color: rgb(82, 221, 29); }
+  color: #cf5c36; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph6 {
-  color: rgb(173, 192, 232); }
+  color: #306B7B; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph7 {
-  color: rgb(137, 113, 2); }
+  color: #c69; }
 
-/* line 101, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .emph8 {
-  color: rgb(96, 196, 93); }
+  color: #6f5499; }
 
-/* line 141, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph9 {
+  color: #0769AD; }
+
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph10 {
+  color: #339933; }
+
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph11 {
+  color: #4F5B93; }
+
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph12 {
+  color: #71b48d; }
+
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph13 {
+  color: #0e402d; }
+
+/* line 102, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+.emph14 {
+  color: #31263e; }
+
+/* line 142, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .grow {
   transition: all 0.2s ease; }
 
-/* line 146, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 147, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .grow:hover,
 .grow:focus {
   transform: scale(1.05, 1.05); }
 
-/* line 150, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 151, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .grow:hover .card-img {
   -webkit-filter: none;
   -moz-filter: none;
@@ -132,15 +161,15 @@ body {
   filter: none;
   transition: all 0.2s ease; }
 
-/* line 159, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 160, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 h1 {
-  font-size: 400%; }
+  font-size: 5em; }
 
-/* line 165, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 166, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .hidn {
   display: none; }
 
-/* line 169, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 170, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .pic-container {
   height: inherit;
   display: flex;
@@ -148,48 +177,40 @@ h1 {
   align-content: middle;
   margin: 1em; }
 
-/* line 177, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 178, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .pic {
   width: 100%;
   overflow: hidden; }
 
-/* line 182, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 183, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .signaturepic {
   width: 50%;
   height: auto; }
 
-/* line 187, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 188, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .sm {
   padding: 2em 0 2em 0; }
 
-/* line 191, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 192, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .title {
-  min-height: 100%;
-  height: 100%;
-  width: 100%;
+  display: flex;
+  align-items: center;
   text-align: center;
-  vertical-align: middle;
-  display: table; }
+  justify-content: center;
+  height: 100vh; }
 
 /* line 201, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
-.title-text {
-  margin: 0 auto;
-  max-width: 600px;
-  vertical-align: middle;
-  display: table-cell; }
-
-/* line 208, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .toplink {
   position: relative;
   color: #000;
   text-decoration: none; }
 
-/* line 215, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 208, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .toplink:hover {
   color: #000;
   text-decoration: none; }
 
-/* line 220, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 213, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .toplink:before {
   content: "";
   position: absolute;
@@ -203,14 +224,10 @@ h1 {
   -webkit-transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s; }
 
-/* line 235, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
+/* line 228, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
 .toplink:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
-
-/* line 241, /Users/gcgp88/Documents/Web/portfolio/css/style.scss */
-html, body {
-  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
